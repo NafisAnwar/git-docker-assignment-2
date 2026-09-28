@@ -9,3 +9,10 @@ The application listens on port 8000, returns a health status response, and can 
 ## Verification
 
 The running application should be verified using an HTTP request to port 8000.
+
+## Usage
+
+Build the Docker image:
+
+```bash
+docker build -t git-docker-app:test .
